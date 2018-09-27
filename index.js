@@ -19,7 +19,6 @@ function nowServing(deliLine) {
   return "There is nobody waiting to be served!" ;
 
   } else {
-    var newPersonName = deliLine[0];
     deliLine.splice(0,1);
   }
   return "Currently serving " + deliLine + ".";
