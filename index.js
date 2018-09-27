@@ -31,6 +31,6 @@ function currentLine(katzDeliLine) {
   }
   let katz = [];
   for(var i = 0; i < katzDeliLine.length; i++) {
-    katz.push(i+1 + ". " + katzDeliLine.length; i++);
+    katz.push(i+1 + ". " + katzDeliLine[i]);
   }   
 }
