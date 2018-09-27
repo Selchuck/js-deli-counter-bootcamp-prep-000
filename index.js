@@ -10,7 +10,7 @@ function nowServing(katzDeliline) {
 
   } else {
     var newPersonName = katzDeliLine[0];
-    katzDeliLine.splice
+    katzDeliLine.splice(0,1);
   }
   
 }
