@@ -29,5 +29,7 @@ function currentLine(katzDeliLine) {
   if(!katzDeliLine.legth) {
   return "The line is currently empty.";
   }
-  else
+  for(var i = 0; i < katzDeliLine.length; i++) {
+    return "The line is currently:"
+  }
 }
