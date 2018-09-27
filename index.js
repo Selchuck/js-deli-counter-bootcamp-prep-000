@@ -7,11 +7,12 @@ takeANumber(katzDeli, "Ada");
 takeANumber(katzDeli, "Grace");
 takeANumber(katzDeli, "Kent");
 currentLine(katzDeli);
-nowServing(katzDeli);currentLine(katzDeli);
-takeANumber(katzDeli, "Matz"); 
- 
-
+nowServing(katzDeli);
 currentLine(katzDeli);
+takeANumber(katzDeli, "Matz"); 
+currentLine(katzDeli);
+nowServing(katzDeliLine);
+currentLine(katzDeliLine);
 
 function nowServing(deliLine) {
   if(!deliLine.length){
