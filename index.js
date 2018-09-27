@@ -7,9 +7,9 @@ takeANumber(katzDeli, "Ada");
 takeANumber(katzDeli, "Grace");
 takeANumber(katzDeli, "Kent");
 currentLine(katzDeli);
-nowServing(katzDeli);
+nowServing(katzDeli);currentLine(katzDeli);
 takeANumber(katzDeli, "Matz"); 
-currentLine(katzDeli); 
+ 
 
 currentLine(katzDeli);
 
