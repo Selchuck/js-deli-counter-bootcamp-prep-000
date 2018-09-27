@@ -14,7 +14,7 @@ nowServing(katzDeli);
 currentLine(katzDeli);
 
 function nowServing(deliLine) {
-  if(deliLine.length){
+  if(!deliLine.length){
     
   return "There is nobody waiting to be served!" ;
 
