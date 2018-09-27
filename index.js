@@ -1,6 +1,6 @@
-function takeANumber(deliLine, newPersonName ) {
- deliLine.push(newPersonName);
-  return "Welcome, " + newPersonName + ". You are number " + deliLine.length + " in line.";
+function takeANumber(katzDeliLine, newPersonName ) {
+ katzDeliLine.push(newPersonName);
+  return "Welcome, " + newPersonName + ". You are number " + katzDeliLine.length + " in line.";
 }
 
 takeANumber(katzDeliLine, "Ada");
@@ -24,3 +24,5 @@ function nowServing(katzDeliLine) {
   }
   
 }
+
+function currentLine()
