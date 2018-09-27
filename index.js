@@ -8,6 +8,9 @@ function nowServing(katzDeliline) {
     
   return "There is nobody waiting to be served!" ;
 
+  } else {
+    var
+    
   }
   
 }
