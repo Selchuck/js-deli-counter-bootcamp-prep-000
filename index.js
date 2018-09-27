@@ -3,7 +3,7 @@ function takeANumber(currentLine, newPersonName ) {
   return "Welcome, " + newPersonName + ". You are number " + currentLine.length + " in line.";
 }
 
-function nowServing(katzDeliline) {
+function nowServing(katzDeliLine) {
   if(katzDeliLine.length === 0){
     
   return "There is nobody waiting to be served!" ;
