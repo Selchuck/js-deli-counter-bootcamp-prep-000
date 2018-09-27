@@ -31,8 +31,8 @@ function currentLine(katzDeliLine) {
   }
   let katz = [];
   for(var i = 0; i < katzDeliLine.length; i++) {
-    katz.push(i+1 + ". " + katzDeliLine)
+    katz.push(i+1 + ". " + katzDeliLine.length; i++);
   }   
-  return "The line is currently:"
+  return "The line is currently:";
 
 }
