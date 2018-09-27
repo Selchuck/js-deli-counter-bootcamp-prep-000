@@ -10,7 +10,7 @@ function nowServing(katzDeliLine) {
 
   } else {
     var newPersonName = katzDeliLine[0];
-    katzDeliLine.splice(0);
+    katzDeliLine.splice(0,1);
   }
   return "Currently serving " + katzDeliLine + ".";
 }
