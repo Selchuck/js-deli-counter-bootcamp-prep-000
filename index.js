@@ -9,7 +9,7 @@ function nowServing(katzDeliline) {
   return "There is nobody waiting to be served!" ;
 
   } else {
-    var newPersonName = katzDeliLine[0]
+    var newPersonName = katzDeliLine[0];
     
   }
   
