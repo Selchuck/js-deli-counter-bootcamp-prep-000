@@ -7,9 +7,9 @@ takeANumber(katzDeli, "Ada");
 takeANumber(katzDeli, "Grace");
 takeANumber(katzDeli, "Kent");
 currentLine(katzDeli);
-takeANumber(katzDeli, "Matz"); 
+nowServing(katzDeli);takeANumber(katzDeli, "Matz"); 
 currentLine(katzDeli); 
-nowServing(katzDeli);
+
 currentLine(katzDeli);
 
 function nowServing(deliLine) {
