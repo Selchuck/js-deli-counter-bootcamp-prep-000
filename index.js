@@ -3,19 +3,19 @@ function takeANumber(deliLine, newPersonName ) {
   return "Welcome, " + newPersonName + ". You are number " + deliLine.length + " in line.";
 }
 
-takeANumber(katzDeli, "Ada");
-takeANumber(katzDeli, "Grace");
-takeANumber(katzDeli, "Kent");
-currentLine(katzDeli);
-nowServing(katzDeli);
-currentLine(katzDeli);
-takeANumber(katzDeli, "Matz"); 
-currentLine(katzDeli);
+takeANumber(katzDeliLine, "Ada");
+takeANumber(katzDeliLine, "Grace");
+takeANumber(katzDeliLine, "Kent");
+currentLine(katzDeliLine);
+nowServing(katzDeliLine);
+currentLine(katzDeliLine);
+takeANumber(katzDeliLine, "Matz"); 
+currentLine(katzDeliLine);
 nowServing(katzDeliLine);
 currentLine(katzDeliLine);
 
-function nowServing(deliLine) {
-  if(!deliLine.length){
+function nowServing(katzDeliLine) {
+  if(!katzDeliLine.length){
     
   return "There is nobody waiting to be served!" ;
 
